@@ -1,6 +1,24 @@
 body {
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
+  color: #434455;
+  background-color: var(--white, #FFF);
 }
+:root {
+  --cloud-color:#F4F4Fd;
+  --navy-color: #2E2F42;
+  --white-color: #FFFFFF;
+
+}
+a {
+  text-decoration: none;
+}
+ul, ol {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+/* Логотип */
 .logo-link {
   font-size: 18px;
   font-family: Raleway;
@@ -8,21 +26,114 @@ body {
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  display: flex;
-  width: 71px;
 }
+/* Менюшка */
+
 .page-nav {
   color: var(--navyblue, #2e2f42);
   font-size: 16px;
-  font-family: Roboto;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+.page-nav .link {
+  color: #2e2f42;
+}
+.page-nav .link:hover {
+  color: #404bbf;
+}
+
 .contacts {
   color: var(--slate, #434455);
   font-size: 16px;
-  font-family: Roboto;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+.contacts .contacts-link {
+  color: #434455;
+}
+.contacts .contacts-link:hover {
+  color: #404bbf;
+}
+/* Головна частина */
+/* Головний заголовок */
+.title-one {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  background: #2e2f42;
+}
+
+.order-button {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  background: var(--iris, #4D5AE5);
+  
+}
+.order-button:hover {
+  background: var(--ocean, #404bbf);
+}
+/* Друга частина */
+.title-three {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.text-description {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+/* Третя частина */
+.title-two {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+/* Четверта частина */
+
+/* Підвал */
+.footer-text {
+  color: var(--cloud, #F4F4FD);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.32px;
+background: var(--navyblue, #2E2F42);
+}
+
+/* Портфолио */
+.all-button {
+  color: var(--white, #FFF);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.64px;
+background: var(--ocean, #404BBF);
+}
+
+.other-buttons {
+  color: var(--iris, #4D5AE5);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.64px;
+border-radius: 4px;
+background: var(--cloud, #F4F4FD);
+}
+
