@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto";
+}
+.logo-link {
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  display: flex;
+  width: 71px;
+}
+.page-nav {
+  color: var(--navyblue, #2e2f42);
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.contacts {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
