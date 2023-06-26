@@ -20,7 +20,7 @@ button {
 }
 /* Логотип */
 .logo-link {
-  color: var(--iris, #4D5AE5);
+  color: var(--iris, #4d5ae5);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -32,7 +32,7 @@ button {
   text-decoration: none;
 }
 .logo {
-  color: var(--navyblue, #2E2F42);
+  color: var(--navyblue, #2e2f42);
 }
 /* Менюшка */
 
@@ -58,7 +58,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal
+  font-style: normal;
 }
 
 .contacts:hover {
@@ -66,7 +66,7 @@ button {
 }
 /* Головна частина */
 .solutions {
-  background-color: var(--navyblue, #2E2F42);
+  background-color: var(--navyblue, #2e2f42);
 }
 /* Головний заголовок */
 .title-one {
@@ -90,7 +90,8 @@ button {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
 }
-.order-button:hover, .order-button:focus {
+.order-button:hover,
+.order-button:focus {
   background: var(--ocean, #404bbf);
 }
 /* Друга частина */
@@ -122,15 +123,15 @@ button {
 }
 /* Четверта частина */
 .team {
-  background-color: #F4F4FD 
+  background-color: #f4f4fd;
 }
 .team-list {
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 
 /* Підвал */
 .footer {
-  background-color: var(--navyblue, #2E2F42);
+  background-color: var(--navyblue, #2e2f42);
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
@@ -139,6 +140,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   background: var(--navyblue, #2e2f42);
+}
+.footer-logo {
+  color: #f4f4fd;
 }
 
 /* Портфолио */
@@ -164,10 +168,10 @@ button {
   background: var(--cloud, #f4f4fd);
 }
 .title2 {
-  color: var(--navyblue, #2E2F42);
-font-size: 20px;
-font-family: Roboto;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
