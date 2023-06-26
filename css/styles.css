@@ -37,9 +37,9 @@ button {
 /* Менюшка */
 
 .list {
-  list-style: none 
+  list-style: none;
   color: var(--navyblue, #2e2f42);
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -54,7 +54,7 @@ button {
 
 .contacts {
   color: var(--slate, #434455);
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -96,7 +96,7 @@ button {
 /* Друга частина */
 .title-three {
   color: #2e2f42;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -112,7 +112,7 @@ button {
 /* Третя частина */
 .title-two {
   color: var(--navyblue, #2e2f42);
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -134,7 +134,7 @@ button {
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -155,7 +155,7 @@ button {
 
 .other-buttons {
   color: var(--iris, #4d5ae5);
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
