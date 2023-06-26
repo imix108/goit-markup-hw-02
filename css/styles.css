@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--white, #fff);
 }
@@ -20,27 +20,35 @@ button {
 }
 /* Логотип */
 .logo-link {
+  color: var(--iris, #4D5AE5);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.link {
+  text-decoration: none;
+}
+.logo {
+  color: var(--navyblue, #2E2F42);
+}
 /* Менюшка */
 
-.page-nav {
+.list {
+  list-style: none 
   color: var(--navyblue, #2e2f42);
   font-family: "Roboto" sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.page-nav .link {
+.list .link {
   color: #2e2f42;
 }
-.page-nav .link:hover {
+.list .link:hover {
   color: #404bbf;
 }
 
@@ -50,18 +58,20 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal
 }
-.contacts .contacts-link {
-  color: #434455;
-}
-.contacts .contacts-link:hover {
+
+.contacts:hover {
   color: #404bbf;
 }
 /* Головна частина */
+.solutions {
+  background-color: var(--navyblue, #2E2F42);
+}
 /* Головний заголовок */
 .title-one {
   color: #ffffff;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -72,7 +82,7 @@ button {
 
 .order-button {
   color: #ffffff;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-family: Roboto;
   font-weight: 500;
@@ -80,7 +90,7 @@ button {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
 }
-.order-button:hover {
+.order-button:hover, .order-button:focus {
   background: var(--ocean, #404bbf);
 }
 /* Друга частина */
@@ -94,7 +104,7 @@ button {
 }
 .text-description {
   color: var(--slate, #434455);
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -111,8 +121,17 @@ button {
   text-transform: capitalize;
 }
 /* Четверта частина */
+.team {
+  background-color: #F4F4FD 
+}
+.team-list {
+  background-color: #FFFFFF
+}
 
 /* Підвал */
+.footer {
+  background-color: var(--navyblue, #2E2F42);
+}
 .footer-text {
   color: var(--cloud, #f4f4fd);
   font-family: "Roboto" sans-serif;
@@ -125,12 +144,12 @@ button {
 /* Портфолио */
 .all-button {
   color: var(--white, #fff);
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background: var(--ocean, #404bbf);
 }
 
@@ -143,4 +162,12 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background: var(--cloud, #f4f4fd);
+}
+.title2 {
+  color: var(--navyblue, #2E2F42);
+font-size: 20px;
+font-family: Roboto;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
