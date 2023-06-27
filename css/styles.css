@@ -22,9 +22,10 @@ button {
 
 .link {
   text-decoration: none;
+
 }
 .logo {
-  color: var(--navyblue, #2e2f42);
+  color: var(--iris, #4D5AE5);;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -36,7 +37,7 @@ button {
 
 .list {
   list-style: none;
-  color: var(--navyblue, #2e2f42);
+  color: var(--slate, #434455);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -151,7 +152,7 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background: var(--ocean, #404bbf);
+  background-color: var(--ocean, #404bbf);
 }
 
 .other-buttons {
@@ -162,7 +163,7 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background: var(--cloud, #f4f4fd);
+  background-color: var(--cloud, #f4f4fd);
 }
 .title2 {
   color: var(--navyblue, #2e2f42);
