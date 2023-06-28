@@ -22,7 +22,7 @@ button {
 
 .link {
   text-decoration: none;
-
+ 
 }
 .header-span {
   color: var(--navyblue, #2E2F42);
@@ -40,7 +40,7 @@ button {
 
 .list {
   list-style: none;
-  color: var(--slate, #434455);
+  color: var(--navyblue, #2E2F42);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
