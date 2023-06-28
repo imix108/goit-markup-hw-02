@@ -24,6 +24,9 @@ button {
   text-decoration: none;
 
 }
+.header-span {
+  color: var(--navyblue, #2E2F42);
+}
 .logo {
   color: var(--iris, #4D5AE5);;
   font-size: 18px;
@@ -144,18 +147,12 @@ button {
 }
 
 /* Портфолио */
-.all-button {
-  color: var(--white, #fff);
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: var(--ocean, #404bbf);
-}
 
-.other-buttons {
+.select-button {
+
+
+}
+.all-button {
   color: var(--iris, #4d5ae5);
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -164,6 +161,17 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--cloud, #f4f4fd);
+}
+
+.other-buttons {
+  
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  ;
 }
 .title2 {
   color: var(--navyblue, #2e2f42);
