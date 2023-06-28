@@ -163,16 +163,6 @@ button {
   background-color: var(--cloud, #f4f4fd);
 }
 
-.other-buttons {
-  
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  ;
-}
 .title2 {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
