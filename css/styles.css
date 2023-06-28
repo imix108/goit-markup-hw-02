@@ -149,10 +149,6 @@ button {
 /* Портфолио */
 
 .select-button {
-
-
-}
-.all-button {
   color: var(--iris, #4d5ae5);
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -161,6 +157,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--cloud, #f4f4fd);
+
 }
 
 .title2 {
