@@ -157,9 +157,13 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--cloud, #f4f4fd);
-
 }
 
+.select-button:hover,
+.select-button:focus {
+  color: #FFFFFF;
+  background-color: #404BBF;
+}
 .title2 {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
