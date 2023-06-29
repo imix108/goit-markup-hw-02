@@ -3,11 +3,16 @@ body {
   color: #434455;
   background-color: var(--white, #fff);
 }
+
 :root {
-  --cloud-color: #f4f4fd;
-  --navy-color: #2e2f42;
+  --cloud: #f4f4fd;
+  --navyblue: #2e2f42;
   --white-color: #ffffff;
+  --iris: #4d5ae5;
+  --slate: #434455;
+  --ocean: #404bbf;
 }
+
 a {
   text-decoration: none;
 }
@@ -22,13 +27,11 @@ button {
 
 .link {
   text-decoration: none;
-  color: var(--navyblue, #2E2F42);
+  color: var(--navyblue);
 }
-.header-span {
-  color: var(--navyblue, #2E2F42);
-}
-.logo {
-  color: var(--iris, #4D5AE5);;
+
+.header-logo {
+  color: var(--iris);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -36,42 +39,44 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-/* Менюшка */
+.header-logo-span {
+  color: var(--navyblue);
+}
 
-.list {
-  list-style: none;
-  color: var(--slate, #434455);
-  font-family: "Roboto", sans-serif;
+/* Менюшка */
+.header-menu-link {
+  color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.list .link:hover, .list .link:focus {
-  color: #404bbf;
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--ocean);
 }
 
-.contacts {
-  color: var(--slate, #434455);
-  font-family: "Roboto", sans-serif;
+.header-contacts-list {
+  color: var(--slate);
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
-.contacts:hover {
-  color: #404bbf;
+.header-contacts-list:hover,
+.header-contacts-list:focus {
+  color: var(--ocean);
 }
+
 /* Головна частина */
 .solutions {
-  background-color: var(--navyblue, #2e2f42);
+  background-color: var(--navyblue);
 }
 /* Головний заголовок */
 .title-one {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -82,7 +87,7 @@ button {
 
 .order-button {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -91,28 +96,26 @@ button {
 }
 .order-button:hover,
 .order-button:focus {
-  background: var(--ocean, #404bbf);
+  background: var(--ocean);
 }
 /* Друга частина */
 .title-three {
   color: #2e2f42;
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .text-description {
-  color: var(--slate, #434455);
-  font-family: "Roboto", sans-serif;
+  color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* Третя частина */
 .title-two {
-  color: var(--navyblue, #2e2f42);
-  font-family: "Roboto", sans-serif;
+  color: var(--navyblue);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -121,51 +124,52 @@ button {
   text-transform: capitalize;
 }
 /* Четверта частина */
-.team {
-  background-color: #f4f4fd;
-}
-.team-list {
-  background-color: #ffffff;
-}
 
 /* Підвал */
 .footer {
-  background-color: var(--navyblue, #2e2f42);
+  background-color: var(--navyblue);
 }
+.footer-logo {
+  color: var(--iris);
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logo-span {
+  color: var(--cloud);
+}
+
 .footer-text {
-  color: var(--cloud, #f4f4fd);
-  font-family: "Roboto", sans-serif;
+  color: var(--cloud);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background: var(--navyblue, #2e2f42);
-}
-.footer-logo {
-  color: #f4f4fd;
 }
 
 /* Портфолио */
 
 .select-button {
   color: var(--iris, #4d5ae5);
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: var(--cloud, #f4f4fd);
+  background-color: var(--cloud);
 }
 
 .select-button:hover,
 .select-button:focus {
-  color: #FFFFFF;
-  background-color: #404BBF;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .second-title {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   font-size: 20px;
-  font-family: Roboto;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
