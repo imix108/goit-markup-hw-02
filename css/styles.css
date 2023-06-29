@@ -29,6 +29,9 @@ button {
   text-decoration: none;
   color: var(--navyblue);
 }
+.list {
+  list-style: none
+}
 
 .header-logo {
   color: var(--iris);
@@ -125,6 +128,12 @@ button {
   text-transform: capitalize;
 }
 /* Четверта частина */
+.team {
+  background-color: #F4F4FD;
+}
+.team-list-item {
+  background-color: #FFFFFF;
+}
 
 /* Підвал */
 .footer {
