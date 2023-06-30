@@ -28,9 +28,10 @@ button {
 .link {
   text-decoration: none;
   color: var(--navyblue);
+  font-style: normal;
 }
 .list {
-  list-style: none
+  list-style: none;
 }
 
 .header-logo {
@@ -60,7 +61,7 @@ button {
   color: var(--ocean);
 }
 
-.header-contacts-list {
+.header-contacts-link {
   color: var(--slate);
   font-size: 16px;
   font-style: normal;
@@ -69,8 +70,8 @@ button {
   letter-spacing: 0.02em;
 }
 
-.header-contacts-list:hover,
-.header-contacts-list:focus {
+.header-contacts-link:hover,
+.header-contacts-link:focus {
   color: var(--ocean);
 }
 
