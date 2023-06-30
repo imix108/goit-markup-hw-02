@@ -61,9 +61,11 @@ button {
   color: var(--ocean);
 }
 
+.header-contacts {
+  font-style: normal;
+}
 .header-contacts-link {
   color: var(--slate);
-  font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
